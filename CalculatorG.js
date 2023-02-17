@@ -22,11 +22,8 @@ equals.addEventListener("click",(e)=>{
 })
 
 clears.addEventListener("click",(e)=>{
-    displays.value="Enter Some Problems";
+    displays.value="";
 })
-
-
-
 
 
     
