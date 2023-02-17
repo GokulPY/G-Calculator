@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.Outer {
+    position: relative;
+    border: none;
+    height: 490px;
+    width: 300px;
+    background-image: rgba(252,70,107,1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.98);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.98);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.98);
+}
+
+form input {
+    height: 75px;
+    width: 100%;
+    color: orangered;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 50px;
+    pointer-events: none;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+    border: 1px rgb(255, 255, 255) solid;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Inner {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 75px;
+}
+
+.Display {
+    color: black;
+    text-align: right;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
